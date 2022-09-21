@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20%;
+    height: 180px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#message-el {
+    color: red;
+    font-size: 15px;
+}
+
+.below-button1 {
+    display: none;
+    font-size: 15px;
+}
+
+.below-button2 {
+    display: none;
+    font-size: 15px;
+}
+
+
+#heads-el {
+    padding: 0 0.5rem;
+}
+
+#tails-el {
+    padding: 0 1rem;
+}
+
+#reset-el {
+    display: none;
+    margin: 0 auto;
+}

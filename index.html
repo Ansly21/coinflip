@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="bg">
+    <h5 id="ht-el">Heads or Tails</h5>
+    <img src="heads-ortails-preview.png" alt="heads-tails-pic" id="img-el">
+
+    <p id="answer-el">Correct answer: </p>
+
+    <button class="up-button" id="start-el" onclick="startGame()">Start</button>
+        <p id="message-el"></p>
+    <button class="below-button1" id="heads-el" onclick="headsAns()">Heads</button>
+    <button class="below-button2" id="tails-el" onclick="tailsAns()">Tails</button>
+    <p id="user-answer"></p>
+    <button id="reset-el" onclick="resetZ()">RESET</button>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
